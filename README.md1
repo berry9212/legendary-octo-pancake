@@ -43,3 +43,87 @@
 
 </body>
 </html>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #55CDFC, #F7A8B8);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+/* Main Content */
+.container {
+    margin-top: 50px;
+}
+
+/* Button */
+.hookup-btn {
+    background: #FF4D79;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hookup-btn:hover {
+    background: #ff2f63;
+}
+
+/* Scanning & Results */
+.scan-message {
+    display: none;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.result-container {
+    display: none;
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.naughty-text {
+    color: #ff4d79;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+.caution {
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
